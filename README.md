@@ -74,30 +74,34 @@ With **Next.js, Node.js, Clerk, NeonDB, TailwindCSS, and Dockerized Microservice
 
 ---
 
-## 📂 Project Structure  
+<details>
+  <summary><b>📁 Project Structure</b></summary>
 
+<pre>
 PMO_EZ/
+├─ actions/              # Server actions and API handlers
+├─ app/                  # Next.js App Router entry point
+├─ components/           # Reusable React UI components
+├─ data/                 # Static or seed data
+├─ hooks/                # Custom React hooks
+├─ lib/                  # Utility functions and helpers
+├─ prisma/               # Prisma ORM schema and DB config
+├─ public/               # Public assets (images, icons, etc.)
 │
-├── actions/ # Server actions and API handlers
-├── app/ # Next.js App Router entry point
-├── components/ # Reusable React UI components
-├── data/ # Static or seed data
-├── hooks/ # Custom React hooks
-├── lib/ # Utility functions and helpers
-├── prisma/ # Prisma ORM schema and DB config
-├── public/ # Public assets (images, icons, etc.)
-│
-├── .gitignore
-├── README.md
-├── components.json # shadcn/ui configuration
-├── eslint.config.mjs # ESLint setup
-├── jsconfig.json # JS path aliases and settings
-├── middleware.js # Middleware logic (auth, routing)
-├── next.config.mjs # Next.js configuration
-├── package-lock.json
-├── package.json
-├── postcss.config.mjs # PostCSS configuration
-└── tailwind.config.js # TailwindCSS setup
+├─ .gitignore
+├─ README.md
+├─ components.json       # shadcn/ui configuration
+├─ eslint.config.mjs     # ESLint setup
+├─ jsconfig.json         # JS path aliases and settings
+├─ middleware.js         # Middleware logic (auth, routing)
+├─ next.config.mjs       # Next.js configuration
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs    # PostCSS configuration
+└─ tailwind.config.js    # TailwindCSS setup
+</pre>
+</details>
+
 
 ---
 
