@@ -82,9 +82,6 @@ With **Next.js, Node.js, Clerk, NeonDB, TailwindCSS, and Dockerized Microservice
 ├── docker/ # Microservices setup
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## ⚡ Getting Started  
@@ -97,7 +94,6 @@ cd pmo_ez
 Create .env files in frontend & backend:
 
 env
-Copy code
 # Clerk
 CLERK_API_KEY=your_clerk_key
 CLERK_SECRET_KEY=your_clerk_secret
@@ -115,15 +111,11 @@ docker-compose up --build
 4️⃣ Run Locally (Dev Mode)
 Backend
 
-bash
-Copy code
 cd backend
 npm install
 npm run dev
 Frontend
 
-bash
-Copy code
 cd frontend
 npm install
 npm run dev
@@ -143,8 +135,6 @@ This is a Next.js project bootstrapped with create-next-app.
 ▶️ Development Server
 Run the dev server:
 
-bash
-Copy code
 npm run dev
 # or
 yarn dev
